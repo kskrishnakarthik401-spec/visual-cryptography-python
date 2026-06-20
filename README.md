@@ -1,19 +1,14 @@
-# Pixel-Level Visual Cryptography Engine (2,2 Scheme)
+---
 
-A complete Python implementation of Naor and Shamir's Visual Secret Sharing Scheme. This engine maps an $N \times M$ binary secret image into two individual matrix shares of size $2N \times 2M$. Individually, each share exhibits perfect information entropy (0% data leak). Stacking the shares via software-simulated transparency alignment fully reconstructs the hidden source.
+## 🌐 Module 2: Network-Layer AES-GCM Socket Cipher
 
-## 🧪 Computational Milestones Achieved
-- **Perfect Secrecy Security:** Verified mathematically using random bitwise coin-toss distributions. Individual shares reveal absolute high-frequency static noise.
-- **Adaptive Contrast Thresholding:** Overcame the inherent 50% contrast degradation of digital pixel blending by engineering an post-processing intensity filter.
-- **Fault-Tolerant File Execution:** Fully optimized code execution pathways for image matrix mode manipulation (`1` and `L` transitions).
+A secure client-server network architecture executing cryptographic payload transport over TCP sockets using **AES-GCM (Authenticated Encryption with Associated Data)**.
 
-## 📊 Visual Verification
+### 🧪 Technical Milestones Achieved
+- **Authenticated Symmetric Ciphers:** Implemented a rigid 256-bit AES block structure ensuring data confidentiality and cryptanalysis resistance.
+- **Tamper Detection & Integrity:** Leveraged GCM authenticated mode to detect network packet injections, mid-stream modifications, or replay attacks.
+- **Dynamic Initialization Vectors:** Generated unique 12-byte cryptographically secure nonces (`os.urandom`) per session to eliminate replay vulnerabilities.
 
-| Encrypted Share 1 | Encrypted Share 2 | Decrypted & Enhanced Outpu |
-| :---: | :---: | :---: |
-| ![Share 1](./share1.png) | ![Share 2](./share2.png) | ![Decrypted](./reconstructed_secret_clear.png)
-
-## 🚀 Execution Steps
-1. Drop any binary or color image in the directory as `secret.png`.
-2. Run `python visual_crypto.py`.
-3. The engine dynamically spawns both noisy key shares and outputs the high-contrast reconstructed secret.
+### 🚀 Execution Tracking
+1. Initialize the background intercept port: `python 02-socket-packet-cipher/server.py`
+2. Execute the transmission payload in a separate console: `python 02-socket-packet-cipher/client.py`
