@@ -1,13 +1,19 @@
-# Visual Cryptography Engine (2,2 Scheme)
+# Pixel-Level Visual Cryptography Engine (2,2 Scheme)
 
-An implementation of Naor and Shamir's Visual Secret Sharing Scheme using Python. This project splits a binary secret image into two completely random shares. Individually, each share leaks 0% information and looks like static noise. The secret is only revealed when both digital layers are stacked together.
+A complete Python implementation of Naor and Shamir's Visual Secret Sharing Scheme. This engine maps an $N \times M$ binary secret image into two individual matrix shares of size $2N \times 2M$. Individually, each share exhibits perfect information entropy (0% data leak). Stacking the shares via software-simulated transparency alignment fully reconstructs the hidden source.
 
-## ⚙️ Core Engineering Concepts
-- **Matrix Expansion:** Expanding an $N \times M$ pixel matrix into a $2N \times 2M$ grid.
-- **Perfect Secrecy:** Implementing random coin-toss probabilities to ensure mathematical un-linkability.
-- **Bitwise Simulation:** Layering binary matrices using spatial pixel manipulation.
+## 🧪 Computational Milestones Achieved
+- **Perfect Secrecy Security:** Verified mathematically using random bitwise coin-toss distributions. Individual shares reveal absolute high-frequency static noise.
+- **Adaptive Contrast Thresholding:** Overcame the inherent 50% contrast degradation of digital pixel blending by engineering an post-processing intensity filter.
+- **Fault-Tolerant File Execution:** Fully optimized code execution pathways for image matrix mode manipulation (`1` and `L` transitions).
 
-## 🚀 How to Run
-1. Place a black and white image named `secret.png` in the root folder.
+## 📊 Visual Verification
+
+| Encrypted Share 1 | Encrypted Share 2 | Decrypted & Enhanced Outpu |
+| :---: | :---: | :---: |
+| ![Share 1](./share1.png) | ![Share 2](./share2.png) | ![Decrypted](./reconstructed_secret_clear.png)
+
+## 🚀 Execution Steps
+1. Drop any binary or color image in the directory as `secret.png`.
 2. Run `python visual_crypto.py`.
-3. Check `share1.png`, `share2.png`, and the revealed `reconstructed_secret.png`.
+3. The engine dynamically spawns both noisy key shares and outputs the high-contrast reconstructed secret.
