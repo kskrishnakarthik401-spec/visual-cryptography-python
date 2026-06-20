@@ -33,6 +33,17 @@ tocols, Discrete Mathematics
 - Integrated industry-standard 256-bit AES-GCM authenticated encryption blocks to maintain traffic confidentiality and cryptanalysis immunity.
 - Implemented dynamic session initialization vectors (12-byte cryptographically secure nonces) to neutralize network packet injection and replay vulnerabilities.
 
+---
+
+## 🔑 Module 3: Enterprise Identity Access Vault
+
+A secure credential management and identity verification engine written in **Java** designed to work with **SQL** database infrastructures.
+
+### 🧪 Technical Milestones Achieved
+- **Salted Hashing Architecture:** Utilized `MessageDigest` to enforce SHA-256 password hashing combined with a uniquely generated, high-entropy 16-byte salt string.
+- **Rainbow Table Immunity:** Pre-pended random salts to user input streams to completely neutralize dictionary-based pre-computed cryptographic attacks.
+- **Hexadecimal Digest Extraction:** Built low-level bitwise masking operators to cleanly parse binary hash bytes into production-ready 64-character database strings.
+
 ## 📚 RELEVANT COURSEWORK
 - Data Structures and Algorithms
 - Discrete Mathematics & Mathematical Logic
