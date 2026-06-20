@@ -3,15 +3,21 @@
 GitHub Portfolio: https://github.com/kskrishnakarthik401-spec/visual-cryptography-python
 
 ## 🎓 EDUCATION
+## 🎓 EDUCATION
 **B.Sc. in Computer Science (2nd Year)**
-[Your College Name/University Name]
-Expected Graduation: 2027 | Current Aggregate: [Your Percentage/CGPA e.g., 78%]
+College of Applied Science, Manjeswaram (IHRD)
+Affiliated with Kannur University, Kerala, India
+Expected Graduation: 2027
+- **Semester 1:** 7.33 SGPA
+- **Semester 2:** Awaiting University Result Declaration 
 
 ## 🛠️ TECHNICAL SKILLS
-- **Languages:** Python (Advanced), SQL
+- **Programming Languages:** Python (Advanced), C++(Advanced), C(Advanced), Java (Intermediate)
+- **Web & Database Development:** HTML, SQL (Relational Databases, Queries)
 - **Frameworks & Libraries:** Pillow (PIL), Cryptography (hazmat primitives), Hashlib, Sockets
 - **Developer Tools:** Git, GitHub, Linux/Windows Terminal Environments
 - **Core Knowledge:** Symmetric/Asymmetric Ciphers, Network Layer Protocols, Discrete Mathematics
+tocols, Discrete Mathematics
 
 ## 🔬 UNDERGRADUATE RESEARCH PORTFOLIO
 **Applied Cryptography Suite (Independent Developer)**
