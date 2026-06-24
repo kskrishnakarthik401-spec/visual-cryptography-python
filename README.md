@@ -1,5 +1,5 @@
 # K S KRISHNA KARTHIK
-[Your Email Address] | [Your Phone Number] | Bela, Kerala, India
+kskrishnakarthik401@gmail.com  | +917736567763 | Bela, Kerala, India
 GitHub Portfolio: https://github.com/kskrishnakarthik401-spec/visual-cryptography-python
 
 ## 🎓 EDUCATION
